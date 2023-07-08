@@ -1,0 +1,121 @@
+/* CSS untuk desain layout */
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures proper spacing */
+  margin: 10px auto; /* Centers the logo horizontally */
+  position: absolute; /* Position the logo */
+  top: 10px; /* Position from the top */
+  right: 10px; /* Position from the right */
+}
+
+
+
+
+/* Style navigasi */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+/* Style konten terkait wisata */
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  color: #333;
+}
+
+.content p {
+  color: #666;
+}
+
+/* Style galeri foto wisata */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+/* Add this CSS code */
+.highlight-card p.centered-text {
+  text-align: center;
+}
+
+
+.card-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* CSS untuk responsive mode */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+}
